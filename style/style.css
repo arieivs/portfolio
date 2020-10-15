@@ -15,6 +15,12 @@ peach: #F79F66
 dark-orange: #F15340
 pink: #D37C71*/
 
+/*branding: rgb(255, 147, 0)
+ux-design: #9437FF
+front-end: rgb(0, 182, 255)
+full-stack: turquoise #0D7E83
+back-end: rgb(142, 250, 0)*/
+
 body {
   margin: 0;
   background-color: rgb(244, 244, 244);
@@ -105,6 +111,26 @@ a .card {
   line-height: 2em;
 }
 
+.branding {
+  color: rgb(255, 147, 0);
+}
+
+.ux-design {
+  color: #9437FF;
+}
+
+.front-end {
+  color: rgb(0, 182, 255);
+}
+
+.full-stack {
+  color: rgb(142, 250, 0);
+}
+
+.back-end {
+  color: rgb(142, 250, 0);
+}
+
 footer {
   background-color: #076570;
   margin-top: 100px;
@@ -112,10 +138,10 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: rgb(255, 218, 196);
   font-size: 36px;
 }
 
 footer a:hover {
-  color: #B8F2E5;
+  color: #F79F66;
 }
