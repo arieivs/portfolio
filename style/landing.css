@@ -1,0 +1,43 @@
+header {
+  background-color: #0D7E83;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: #B8F2E5;
+}
+
+.banner {
+  background-color: #0D7E83;
+  color: white;
+  height: 70vh;
+}
+
+.banner .container {
+  height: inherit;
+}
+
+.banner .flex {
+  height: inherit;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+.banner h2 {
+  font-size: 32px;
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+.tagline {
+  margin: 60px 0;
+  text-align: center;
+  font-size: 26px;
+}

@@ -1,11 +1,48 @@
+/*Chelsea Market:*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/*Fredericka the Great:*/
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/*Abril Fatface:*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*Playfair Display:*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+/*Roboto:*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+/*turquoise: #0D7E83
+dark-turquoise: #076570
+peach: #F79F66
+dark-orange: #F15340
+pink: #D37C71*/
+
 body {
   margin: 0;
   background-color: rgb(244, 244, 244);
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Chelsea Market', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  color: #0D7E83;
+  font-weight: bold;
+}
+
+p a:hover {
+  color: #076570;
 }
 
 header {
   position: sticky;
-  background-color: white;
+  top: 0;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .horizontal-list ul {
@@ -33,18 +70,43 @@ header {
 
 .card {
   width: 200px;
+  min-height: 233px;
   margin: 20px;
-  padding: 20px;
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   background-color: white;
 }
 
+.card img {
+  width: inherit;
+  height: 120px;
+  border-radius: 4px 4px 0 0;
+}
+
+.card h3 {
+  margin: 8px 20px 20px 20px;
+}
+
 .card ul {
-  padding: 0 20px;
+  margin: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
+}
+
+a .card {
+  color: black;
 }
 
 footer {
-  background-color: white;
+  background-color: #076570;
   margin-top: 50px;
+  height: 100px;
+}
+
+footer a {
+  color: white;
+  font-size: 36px;
+}
+
+footer a:hover {
+  color: #B8F2E5;
 }
