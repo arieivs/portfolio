@@ -27,6 +27,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-family: 'Chelsea Market', sans-serif;
+  font-size: 55px;
+  margin-bottom: 60px;
+}
+
 h2 {
   font-family: 'Chelsea Market', sans-serif;
 }
@@ -53,6 +59,10 @@ header {
 
 .horizontal-list ul {
   margin: 0;
+  padding: 0;
+}
+
+.headnfoot ul {
   padding: 20px 0;
 }
 
@@ -97,13 +107,13 @@ a .card {
   margin: 8px 20px;
 }
 
-.card ul {
+.pers-bullets {
   margin: 0 20px;
   padding: 0 0 12px 0;
   list-style: none; /* Remove default bullets */
 }
 
-.card ul i {
+.pers-bullets i {
   margin-right: 10px;
 }
 

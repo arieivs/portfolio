@@ -1,6 +1,5 @@
 header {
   background-color: #0D7E83;
-  color: white;
 }
 
 header a {
@@ -28,12 +27,11 @@ header a:hover {
 
 .banner h1 {
   font-size: 60px;
-  font-family: 'Chelsea Market', sans-serif;
+  margin: revert;
 }
 
 .banner h2 {
   font-size: 32px;
-  font-family: 'Chelsea Market', sans-serif;
 }
 
 .tagline {

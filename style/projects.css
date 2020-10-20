@@ -1,0 +1,18 @@
+@import url(navbar.css);
+
+.projects {
+  margin-bottom: 60px;
+}
+
+.projects img {
+  max-width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-right: 16px;
+}
+
+.project-info {
+  text-align: justify;
+}
