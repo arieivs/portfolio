@@ -15,4 +15,9 @@
 
 .project-info {
   text-align: justify;
+  line-height: 1.8em;
+}
+
+.project-info p {
+  margin: 8px 0;
 }
