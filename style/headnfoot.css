@@ -1,0 +1,34 @@
+header {
+  position: sticky;
+  top: 0;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #0D7E83;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: #B8F2E5;
+}
+
+.headnfoot ul {
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #076570;
+  margin-top: 100px;
+  height: 100px;
+}
+
+footer a {
+  color: rgb(255, 218, 196);
+  font-size: 36px;
+}
+
+footer a:hover {
+  color: #F79F66;
+}

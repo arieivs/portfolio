@@ -11,8 +11,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
 
 /*STYLING SHEETS*/
-@import url(navbar.css);
+@import url(headnfoot.css);
 
+/*COLOURS*/
 /*turquoise: #0D7E83
 dark-turquoise: #076570
 peach: #F79F66
@@ -56,20 +57,9 @@ p a:hover {
   color: #076570;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  font-size: 18px;
-  font-weight: 300;
-}
-
 .horizontal-list ul {
   margin: 0;
   padding: 0;
-}
-
-.headnfoot ul {
-  padding: 20px 0;
 }
 
 .horizontal-list li {
@@ -145,19 +135,4 @@ a .card {
 
 .back-end {
   color: rgb(142, 250, 0);
-}
-
-footer {
-  background-color: #076570;
-  margin-top: 100px;
-  height: 100px;
-}
-
-footer a {
-  color: rgb(255, 218, 196);
-  font-size: 36px;
-}
-
-footer a:hover {
-  color: #F79F66;
 }
