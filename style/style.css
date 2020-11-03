@@ -12,6 +12,7 @@
 
 /*STYLING SHEETS*/
 @import url(headnfoot.css);
+@import url(button.css);
 
 /*COLOURS*/
 /*turquoise: #0D7E83
@@ -28,9 +29,7 @@ back-end: rgb(142, 250, 0)*/
 
 body {
   margin: 0;
-  /*color: white;*/
   background-color: rgb(250, 250, 250);
-  /*background-color: #004749;*/
   font-family: 'Roboto', sans-serif;
 }
 
