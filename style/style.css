@@ -48,12 +48,12 @@ a {
   text-decoration: none;
 }
 
-p a {
+.text-link {
   color: #0D7E83;
   font-weight: bold;
 }
 
-p a:hover {
+.text-link:hover {
   color: #076570;
 }
 
