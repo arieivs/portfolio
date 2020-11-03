@@ -16,6 +16,17 @@ main {
   width: 70%;
   text-align: justify;
   line-height: 1.5em;
+  flex-direction: column;
+}
+
+.continue {
+  margin-top: 60px;
+}
+
+.continue p {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
 }
 
 aside {
