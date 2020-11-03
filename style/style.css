@@ -1,3 +1,4 @@
+/*FONTS*/
 /*Chelsea Market:*/
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 /*Fredericka the Great:*/
@@ -8,6 +9,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 /*Roboto:*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+/*STYLING SHEETS*/
+@import url(navbar.css);
 
 /*turquoise: #0D7E83
 dark-turquoise: #076570
@@ -23,7 +27,9 @@ back-end: rgb(142, 250, 0)*/
 
 body {
   margin: 0;
-  background-color: rgb(244, 244, 244);
+  /*color: white;*/
+  background-color: rgb(250, 250, 250);
+  /*background-color: #004749;*/
   font-family: 'Roboto', sans-serif;
 }
 

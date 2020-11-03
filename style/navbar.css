@@ -1,11 +1,11 @@
 header {
-  background-color: rgb(244, 244, 244);
+  background-color: #0D7E83;
 }
 
 header a {
-  color: #0D7E83;
+  color: white;
 }
 
 header a:hover {
-  color: #076570;
+  color: #B8F2E5;
 }
