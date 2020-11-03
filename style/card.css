@@ -1,0 +1,32 @@
+a .card {
+  color: black;
+}
+
+a:hover .card {
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  transform: translateY(-1px);
+}
+
+.card {
+  width: 200px;
+  min-height: 240px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  background-color: white;
+  transition: ease 0.2s;
+}
+
+.card img {
+  width: inherit;
+  height: 120px;
+  border-radius: 4px 4px 0 0;
+}
+
+.card h3 {
+  margin: 8px 20px;
+}
+
+.vertical-list li {
+  line-height: 2em;
+}

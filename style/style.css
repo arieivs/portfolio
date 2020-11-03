@@ -13,6 +13,7 @@
 /*STYLING SHEETS*/
 @import url(headnfoot.css);
 @import url(button.css);
+@import url(card.css);
 
 /*COLOURS*/
 /*turquoise: #0D7E83
@@ -79,29 +80,6 @@ a {
   flex-wrap: wrap;
 }
 
-a .card {
-  color: black;
-}
-
-.card {
-  width: 200px;
-  min-height: 240px;
-  margin: 20px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  background-color: white;
-}
-
-.card img {
-  width: inherit;
-  height: 120px;
-  border-radius: 4px 4px 0 0;
-}
-
-.card h3 {
-  margin: 8px 20px;
-}
-
 .pers-bullets {
   margin: 0 20px;
   padding: 0 0 12px 0;
@@ -110,10 +88,6 @@ a .card {
 
 .pers-bullets i {
   margin-right: 10px;
-}
-
-.vertical-list li {
-  line-height: 2em;
 }
 
 .branding {
