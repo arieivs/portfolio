@@ -32,3 +32,11 @@ footer a {
 footer a:hover {
   color: #F79F66;
 }
+
+footer p {
+  color: rgb(255, 218, 196);
+  font-weight: 300;
+  margin: 0;
+  padding: 20px;
+  align-self: center;
+}
