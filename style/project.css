@@ -10,8 +10,6 @@
 
 main {
   width: 70%;
-  text-align: justify;
-  line-height: 1.5em;
   flex-direction: column;
 }
 

@@ -67,6 +67,11 @@ a {
   padding-right: 20px;
 }
 
+.long-text {
+  text-align: justify;
+  line-height: 1.5em;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
