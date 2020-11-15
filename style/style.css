@@ -14,6 +14,7 @@
 @import url(headnfoot.css);
 @import url(button.css);
 @import url(card.css);
+@import url(bullet-points.css);
 
 /*COLOURS*/
 /*turquoise: #0D7E83
@@ -89,32 +90,31 @@ a {
   justify-content: space-between;
 }
 
-.pers-bullets {
-  margin: 0 20px;
-  padding: 0 0 12px 0;
-  list-style: none; /* Remove default bullets */
+@media (max-width: 1040px) {
+  .container {
+    max-width: 800px;
+  }
 }
 
-.pers-bullets i {
-  margin-right: 10px;
+@media (max-width: 840px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .wrap {
+    flex-direction: row !important;
+  }
 }
 
-.branding {
-  color: rgb(255, 147, 0);
+@media (max-width: 540px) {
+  .container {
+    max-width: 350px;
+  }
 }
 
-.ux-design {
-  color: #9437FF;
-}
 
-.front-end {
-  color: rgb(0, 182, 255);
-}
 
-.full-stack {
-  color: rgb(142, 250, 0);
-}
-
-.back-end {
-  color: rgb(142, 250, 0);
-}

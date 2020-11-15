@@ -40,3 +40,9 @@ footer p {
   padding: 20px;
   align-self: center;
 }
+
+@media (max-width: 840px) {
+  footer .flex {
+    flex-direction: row;
+  }
+}

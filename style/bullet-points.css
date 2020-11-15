@@ -1,0 +1,29 @@
+.pers-bullets {
+  margin: 0 20px;
+  padding: 0 0 12px 0;
+  list-style: none; /* Remove default bullets */
+}
+
+.pers-bullets i {
+  margin-right: 10px;
+}
+
+.branding {
+  color: rgb(255, 147, 0);
+}
+
+.ux-design {
+  color: #9437FF;
+}
+
+.front-end {
+  color: rgb(0, 182, 255);
+}
+
+.full-stack {
+  color: rgb(142, 250, 0);
+}
+
+.back-end {
+  color: rgb(142, 250, 0);
+}
