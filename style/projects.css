@@ -19,3 +19,9 @@
 .project-info p {
   margin: 8px 0;
 }
+
+@media (max-width: 840px) {
+  .projects img {
+    margin-bottom: 16px;
+  }
+}
