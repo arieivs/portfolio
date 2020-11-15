@@ -20,8 +20,52 @@
   margin: 8px 0;
 }
 
+.project-info .btn {
+  max-width: 120px;
+  padding: 0.6em 1.2em;
+}
+
 @media (max-width: 840px) {
   .projects img {
     margin-bottom: 16px;
   }
+
+  .project-info {
+    position: relative;
+    z-index: -10;
+  }
+
+  .project-info ul {
+    position: absolute;
+    top: -130px;
+    right: 80px;
+  }
+
+  .project-info li {
+    display: block !important;
+  }
+
+  .project-info .btn {
+    position: absolute;
+    top: -54px;
+    left: 200px;
+    padding: 0.3em 1.5em;
+  }
 }
+
+@media (max-width: 540px) {
+  .project-info {
+    position: static;
+  }
+
+  .project-info ul {
+    position: static;
+  }
+
+  .project-info .btn {
+    padding: 0.6em 1.2em;
+    position: static;
+  }
+}
+
+

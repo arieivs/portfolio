@@ -16,10 +16,6 @@
   margin: 20px;
 }
 
-.btn-med {
-  padding: 0.6em 1.2em;
-}
-
 .btn-prim {
   color: white;
   background-color: #0D7E83;
@@ -34,5 +30,6 @@
   background-color: #F79F66;
   min-width: 90px;
   margin: 20px;
+  padding: 0.6em 1.2em;
 }
 
