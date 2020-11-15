@@ -6,3 +6,15 @@
   width: 50%;
   object-fit: contain;
 }
+
+@media (max-width: 840px) {
+  .about-text {
+    width: 100%;
+    order: 2;
+  }
+
+  .about-img {
+    width: 100%;
+    order: 1;
+  }
+}

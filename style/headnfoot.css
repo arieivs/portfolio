@@ -46,3 +46,9 @@ footer p {
     flex-direction: row;
   }
 }
+
+@media (max-width: 540px) {
+  footer p {
+    padding: 0;
+  }
+}
