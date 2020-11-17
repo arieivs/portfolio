@@ -48,7 +48,12 @@ footer p {
 }
 
 @media (max-width: 540px) {
+  footer a {
+    font-size: 20px;
+  }
+
   footer p {
     padding: 0;
+    font-size: 14px;
   }
 }
