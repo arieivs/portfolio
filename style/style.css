@@ -126,6 +126,10 @@ a {
   .container {
     max-width: 310px;
   }
+
+  .long-text {
+    text-align: left;
+  }
 }
 
 
