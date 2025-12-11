@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SV Philosophers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/project.css">
+</head>
+<body>
+  <header>
+    <div class="container horizontal-list headnfoot">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- <a href="" class="bread-crumb">〈 Projects</a> -->
+
+  <div class="container main-container">
+    <h1>Philosophers</h1>
+    <div class="flex space-betw">
+      <main class="flex space-betw long-text">
+        <div>
+            <p>&nbsp;&nbsp; During 2021 and 2022 I attended the <a href="https://www.42lisboa.com/" target="_blank" class="text-link">42 Lisboa coding school</a>. 42 follows a learning by doing and peer-to-peer learning methodology: the syllabus consists of a series of challenges, and you must learn what it takes to solve them. One of them was the dinning philosophers problem.</p>
+            <p>&nbsp;&nbsp; Quoting Wikipedia, “in computer science, the dining philosophers problem is an example problem often used in concurrent algorithm design to illustrate synchronization issues and techniques for resolving them”. N philosophers sit at the dining table for eating spaghetti; there is a plate in front of each philosopher and a fork in between. These philosophers haven’t yet mastered the Italian art of eating spaghetti, thus they can only eat when both forks on their right and left side are free for them to use (and obviously, two philosophers cannot share a fork at the same time). The philosophers then alternate between eating, sleeping, and thinking (it is their profession, after all). If the period a philosopher remains without eating exceeds a certain amount of time, this philosopher dies of hunger. The purpose of this project was to build a simulation which, given the number of philosophers and the amount of time they take eating and sleeping, determines if it is possible for all the philosophers to coexist happily or if one or more are destined to starvation.</p>
+            <p>&nbsp;&nbsp; One of the challenges is to prevent deadlocks, meaning a system state in which no progress is possible. An extreme example of a deadlock would be if each philosopher picks a fork and remains waiting for the second one to be free, in which case they would all eventually starve (one can also deduce from this example that philosophers get stuck in their own thoughts too easily, to the point of being unable to communicate with each other and reach an agreement). To avoid this situation, I simply check that both forks are free before locking both. Another challenge appears when there's an odd number of philosophers. In this situation, we need to make sure the one who didn't eat the longest manages to grab the forks instead of another one. Imagine the following: there are 5 philosophers; 1 and 3 eat; 2 and 4 eat; 5 and either 1 or 3 should start eating now, but instead 1 and 3 start eating again and 5 starves. In order to avoid this, a small mandatory thinking time was added when the number of philosophers is odd. In this way, the ones who just finished sleeping and started thinking will be in disadvantage in comparison to those who are thinking the longest (and thus not eating the longest).</p>
+            <p>&nbsp;&nbsp; This project was coded in C, and was an introduction to threads, mutexes, deadlocks and race conditions. You can look at the code in <a href="https://github.com/arieivs/42/tree/master/3_philosophers" target="_blank" class="text-link">this GitHub repository</a>, and also see other projects from the <a href="https://github.com/arieivs/42" target="_blank" class="text-link">42 syllabus here.</a></p>
+        </div>
+
+        <div class="continue">
+            <p><em>Continue exploring my projects</em></p>
+            <div class="flex space-betw">
+                <a href="ope.html" class="btn btn-sec">〈 &nbsp; Previous</a>
+                <a href="topshots.html" class="btn btn-sec">Next &nbsp; 〉</a>
+            </div>
+        </div>
+      </main>
+
+      <aside class="flex">
+        <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <div class="aside-info">
+            <div class="aside-info-parcel">
+                <p class="label">What I did</p>
+                <p class="labeled">Software development</p>
+            </div>          
+
+            <div class="aside-info-parcel">
+                <p class="label">Tech Stack</p>
+                <p class="labeled">C</p>
+            </div>
+
+            <div class="aside-info-parcel">
+                <p class="label">Code</p>
+                <a href="https://github.com/arieivs/42/tree/master/3_philosophers" target="_blank" class="text-link"><p class="labeled">Philosopher's code</p></a>
+                <a href="https://github.com/arieivs/42" target="_blank" class="text-link"><p class="labeled">42 Repository</p></a>
+            </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container flex space-betw">
+      <div class="horizontal-list headnfoot">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/vieirasara" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/arieivs" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+      <p>Coded with ♥︎ by Sara Vieira</p>
+    </div>
+  </footer>
+</body>
+</html>
