@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SV Cocoshell</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
+  <link rel="stylesheet" type="text/css" href="../style/project.css">
+</head>
+<body>
+  <header>
+    <div class="container horizontal-list headnfoot">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- <a href="" class="bread-crumb">〈 Projects</a> -->
+
+  <div class="container main-container">
+    <h1>Cocoshell</h1>
+    <div class="flex space-betw">
+      <main class="flex space-betw long-text">
+        <div>
+            <p>&nbsp;&nbsp; Following the suggestive name, this project was about making our own version of a shell.</p>
+            <p>&nbsp;&nbsp; As mentioned in the previous project, I attended the 42 Lisbon coding school, which follows a learning by doing and peer-to-peer learning methodology. The syllabus consists of a series of challenges, and some of them are group projects, which was the case of “minishell”. In pairs, we ought to recreate a simplified version of bash, in C. Our “minishell” was called “Cocoshell”.</p>
+            <p>&nbsp;&nbsp; This was our first group assignment. My work partner and I proved to be a good team: we both were organised, believed in the importance of documenting the code well (and in the value of emojis in writing good documentation), were interested in coding different parts of the project, enjoyed reviewing and discussing each other’s additions in pull requests, and we were bound by friendship. As she once put it, coding with someone is accepting their OCDs (over-normalising and generalising the meaning of OCD) and we accepted each other’s pickiness on how to name functions and variables (the true challenges of coding) without blinking.</p>
+            <p>&nbsp;&nbsp; The two biggest tasks of this project were to build the parser and the executer: my partner took the first challenge while I took the later. There were other smaller tasks to take into consideration, such as rewriting some commands like “cd”, “pwd” or “echo” (the idea being that if these commands were called our built-in version should be used, while if other commands were called the system version should be used), managing environment variables or handling signals. She started with the parser while I moved on with the built-in commands – this came in handy, as we were able to align on how the information ought to be transmitted from her part to mine. Then the moment came to face the executor. I had spoken with some friends at school, I had thought about the challenge, and an idea was formed and running in the back of my mind, in a smooth and organic way. So when I sit down to finally code the skeleton of the executor, in one afternoon the idea was turned into code. The description of this blissful moment is not here for show off (I do not even consider it worth showing off) – it is here because it was honestly one of my favourite moments while coding. This was just the structure, taking into consideration pipes and redirections. Other versions came along, more robust, taking into consideration the order of execution, error codes, waiting for parent processes and terminating child processes properly, incorporating heredocs – but the initial structure remained the same, proving to be a scalable and neat approach. For more technical details, check our read me and code in <a href="https://github.com/Knulpinette/42_03_minishell" target="_blank" class="text-link">our GitHub repository.</a></p>
+            <p>&nbsp;&nbsp; After multiple rounds of looking for edge cases, testing and increasing our shell’s resilience, we were very happy with our “Cocoshell”.</p>
+        </div>
+
+        <div class="continue">
+            <p><em>Continue exploring my projects</em></p>
+            <div class="flex space-betw">
+                <a href="philosophers.html" class="btn btn-sec">〈 &nbsp; Previous</a>
+                <a href="topshots.html" class="btn btn-sec">Next &nbsp; 〉</a>
+            </div>
+        </div>
+      </main>
+
+      <aside class="flex">
+        <img src="https://images.unsplash.com/photo-1608742213509-815b97c30b36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <div class="aside-info">
+            <div class="aside-info-parcel">
+                <p class="label">What I did</p>
+                <p class="labeled">Software development</p>
+            </div>          
+
+            <div class="aside-info-parcel">
+                <p class="label">Tech Stack</p>
+                <p class="labeled">C</p>
+            </div>
+
+            <div class="aside-info-parcel">
+                <p class="label">Code</p>
+                <a href="https://github.com/Knulpinette/42_03_minishell" target="_blank" class="text-link"><p class="labeled">Cocoshell Repository</p></a>
+                <a href="https://github.com/arieivs/42" target="_blank" class="text-link"><p class="labeled">42 Repository</p></a>
+            </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container flex space-betw">
+      <div class="horizontal-list headnfoot">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/vieirasara" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/arieivs" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+      <p>Coded with ♥︎ by Sara Vieira</p>
+    </div>
+  </footer>
+</body>
+</html>
