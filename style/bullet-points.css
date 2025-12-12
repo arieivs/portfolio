@@ -8,7 +8,7 @@
   margin-right: 10px;
 }
 
-.branding {
+.data-science {
   color: rgb(255, 147, 0);
 }
 
@@ -26,4 +26,8 @@
 
 .back-end {
   color: rgb(142, 250, 0);
+}
+
+.software {
+  color: #00296b;
 }
